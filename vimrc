@@ -26,12 +26,14 @@ set hidden
 
 "turn on syntax highlighting
 syntax on
+syntax enable
 
 " Change leader to a comma because the backslash is too far away
 " That means all \x commands turn into ,x
-" The mapleader has to be set before vundle starts loading all 
+" The mapleader has to be set before vundle starts loading all
 " the plugins.
-let mapleader=","
+"let mapleader=","
+let mapleader="ctrl"
 
 " =============== Vundle Initialization ===============
 " This loads all the plugins specified in ~/.vim/vundles.vim
