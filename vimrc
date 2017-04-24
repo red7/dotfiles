@@ -80,9 +80,12 @@ filetype indent on
 
 " Display tabs and trailing spaces visually
 set list listchars=tab:\ \ ,trail:·
-
 set nowrap       "Don't wrap lines
+set textwidth=80
+set fo+=mB
 set linebreak    "Wrap lines at convenient points
+"set cursorline  "Highlight the line number
+set lines=30 columns=100
 
 " ================ Folds ============================
 
@@ -105,7 +108,7 @@ set wildignore+=log/**
 set wildignore+=tmp/**
 set wildignore+=*.png,*.jpg,*.gif
 
-"
+
 " ================ Scrolling ========================
 
 set scrolloff=8         "Start scrolling when we're 8 lines away from margins
