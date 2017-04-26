@@ -18,7 +18,15 @@ imap <silent> <D-d> _
 imap <silent> <D-K> -
 imap <silent> <D-D> -
 
+" ======================================
+" Custom Keymap
+" =====================================
 imap jk <esc>
+" Emacs-Like in insert mode
+imap <C-a> <ESC>^
+map <C-a> <ESC>I
+imap <C-e> <ESC>$
+map <C-e> <ESC>A
 
 " Change inside various enclosures with Cmd-" and Cmd-'
 " The f makes it find the enclosure so you don't have
