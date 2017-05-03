@@ -52,6 +52,9 @@ alias ae='vim $yadr/zsh/aliases.zsh' #alias edit
 alias ar='source $yadr/zsh/aliases.zsh'  #alias reload
 alias gar="killall -HUP -u \"$USER\" zsh"  #global alias reload
 
+# Sublime Text using
+alias subl='/Applications/Sublime\ Text.app/Contents/MacOS/Sublime\ Text'
+
 # vim using
 alias mvim='/Applications/MacVim.app/Contents/MacOS/Vim -g'
 mvim --version > /dev/null 2>&1
